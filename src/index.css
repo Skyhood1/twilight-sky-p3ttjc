@@ -1,0 +1,15 @@
+/* src/index.css */
+
+/* Сброс отступов и базовые настройки */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #f3f4f6; /* светло-серый фон */
+}
+
+/* Чтобы <div id="root"> занимал всю высоту экрана */
+#root {
+  min-height: 100vh;
+}
